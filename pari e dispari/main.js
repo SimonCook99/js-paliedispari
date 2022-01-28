@@ -1,8 +1,9 @@
 let segnoUtente = prompt("Pari o dispari?");
 
-/* while(segnoUtente.toLowerCase() != "pari" || segnoUtente.toLowerCase() != "dispari"){
+//Il programma non va avanti se riceve valori diversi da "pari" o "dispari"
+while(segnoUtente.toLowerCase() != "pari" && segnoUtente.toLowerCase() != "dispari"){
     segnoUtente = prompt("Valore non valido!!! Pari o dispari?");
-} */
+}
 
 
 let numeroUtente = parseInt(prompt("inserisci un numero intero da 1 a 5"));
